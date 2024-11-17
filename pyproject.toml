@@ -1,0 +1,9 @@
+[project]
+name = "plotter"
+version = "0.1.0"
+description = "Plotter scripts, experiments, etc."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "vpype[all]>=1.14.0",
+]
