@@ -5,5 +5,12 @@ description = "Plotter scripts, experiments, etc."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "shapely>=2.0.6",
     "vpype[all]>=1.14.0",
+    "vsketch>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.5.1",
 ]
